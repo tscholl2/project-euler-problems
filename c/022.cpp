@@ -13,7 +13,7 @@ What is the total of all the name scores in the file?
 int main()
 {
     std::fstream f;
-    f.open("c/names.txt", std::ios::in);
+    f.open("022names.txt", std::ios::in);
     std::string buf;
     std::vector<std::string> v;
     while (!f.eof())
